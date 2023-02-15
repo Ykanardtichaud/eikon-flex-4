@@ -1,33 +1,39 @@
 .container{
   display: flex;
 }
+
 /* 1. exercice-flex */
 .exercice-flex .container{
  flex-direction: row;
 }
+
 /* 2. exercice-flex-2 */
 .exercice-flex-2 .container{
  flex-direction: row;
  align-items: center;
 }
+
 /*3. exercice-align-content-1 */
 .exercice-align-content-1 .container{
   flex-direction: row;
   align-content: center;
   flex-wrap: wrap-reverse;
 }
+
 /*4. exercice-align-content-2 */
 .exercice-align-content-2 .container{
   flex-direction: row;
   justify-content: center;
   flex-wrap: wrap;
 }
+
 /*5. exercice-align-content-3 */
 .exercice-align-content-3 .container{
   flex-direction: row-reverse;
   flex-wrap: wrap-reverse;
   align-content: space-between;
 }
+
 /*6. exercice-flex-grow-1 */
 .exercice-flex-grow-1 .container{
   flex-direction: row;
@@ -36,6 +42,7 @@
 .exercice-flex-grow-1 .element-red,.exercice-flex-grow-1 .element-blue{
   flex-grow: 1;
 }
+
 /*7. exercice-flex-grow-2 */
 .exercice-flex-grow-2 .container{
   flex-direction: column;
@@ -44,6 +51,35 @@
 .exercice-flex-grow-2 .element-green{
   flex-grow: 1;
 }
+
 /*8. exercice-flex-grow-3 */
+.exercice-flex-grow-3 .element-blue{
+  flex-grow: 2;
+}
+
+.exercice-flex-grow-3 .element-red, .exercice-flex-grow-3 .element-green{
+  flex-grow: 1;
+}
 
 /*9. exercice-all-in */
+.exercice-all-in .container{
+  flex-direction: row;
+  flex-wrap: wrap-reverse;
+  align-content: center;
+}
+
+.exercice-all-in .element-pink{
+  flex-grow: 1;
+}
+
+.exercice-all-in .element-gray, .exercice-all-in .element-yellow{
+  flex-grow: 1;
+}
+
+.exercice-all-in .element-blue{
+  flex-grow: 2;
+}
+
+.exercice-all-in .element-red, .exercice-all-in .element-green{
+  flex-grow: 1;
+}
